@@ -73,11 +73,6 @@ int addWide(int s) {
   return s;
 }
 
-int addWicket(int w) {
-  w = w + 1;
-  return w;
-}
-
 int main() {
   int wide = 0, ones = 0, twos = 0, fours = 0, sixes = 0, noballs = 0;
   int score = 0, wickets = 0, balls = 0, choice;
