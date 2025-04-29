@@ -1,6 +1,6 @@
 # Simple Scoreboard for cricket
 
-This is a simple scoreboard system made with c (there is no GUI for this project). You can update the score via choices! such as,
+This is a simple scoreboard system made with the use of OpenGL library in C. You can update the score via choices! such as,
 1. Ones,
 2. Twos,
 3. Fours,
