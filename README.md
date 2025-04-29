@@ -11,6 +11,9 @@ This is a simple scoreboard system made with c (there is no GUI for this project
 
 ## For cloning this project. 
 
+## Install OpenGL package
+# In linux use this command in the terminal
+sudo apt-get install freeglut3-dev
 
 ```bash
 git clone https://github.com/velayutham1706/scoreboard.git
@@ -18,8 +21,7 @@ git clone https://github.com/velayutham1706/scoreboard.git
 # Move to the folder
 cd scoreboard
 
-# If you have gcc in your system, type this in your terminal
-gcc score.c -o score
+gcc score.c -lGL -lGLU -lglut -o score
 
 # Then an executable score file will be added to your directory, run that file
 ./score
