@@ -9,12 +9,14 @@ This is a simple scoreboard system made with c (there is no GUI for this project
 6. Wide,
 7. Wickets.
 
-## For cloning this project. 
 
-## Install OpenGL package
-# In linux use this command in the terminal
+# Install OpenGL package
+## In linux use this command in the terminal
+```bash
 sudo apt-get install freeglut3-dev
+```
 
+## For cloning this project. 
 ```bash
 git clone https://github.com/velayutham1706/scoreboard.git
 
